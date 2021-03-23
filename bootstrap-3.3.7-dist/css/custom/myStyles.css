@@ -1,0 +1,402 @@
+/************************ General Styles ************************/
+body {
+	color: #393641;
+	font-family: 'Ubuntu', sans-serif;
+    
+}
+/* Fix header backround to white */
+.navbar-default{
+	background-color: #fff;
+	}
+.navbar-brand > img{
+	position:relative;
+	top: -27px;
+}
+.navbar-default .navbar-nav> .active> a {
+	background-color:#a3019f !important;
+	color: #fff !important;
+}
+
+
+
+/* set links color and decorations */
+a ,a:link{
+	color: #393641;
+	text-decoration: none;
+	outline: 0; /* remove dotted border after click */
+	
+}
+a:hover, .dropdown.open > a:first-child{
+	color: #a3019f;
+	text-decoration: none;
+}
+/* fix radius of dropdown menu */
+.dropdown-menu{
+	border-radius: 0;
+}
+/* glyphicon color */
+.glyphicon {
+	color: #a3019f;
+}
+/* Fix btn colours and radius */
+.btn{
+	border-radius: 0;
+	
+}
+.btn:hover{
+	border: 1px solid #a3019f;
+	background-color #a3019f;
+	color: #fff;
+}
+.scrollSection{
+  padding-top: 51px;
+}
+
+
+#topMenu a{
+	font-size: smaller;
+	
+}
+#topMenu{
+	border-bottom: 1px solid #bbb;
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+}
+.navbar{
+	padding: 25px 0;
+	-webkit-transition: padding .3s;
+	-moz-transition: padding .3s;
+	transition: padding .3s;
+}
+
+/* Disable top menu if is shrinked */
+.cbp-af-header-shrink{
+	padding: 10px 0;
+	
+}
+.cbp-af-header-shrink #topMenu{
+	display: none;
+}
+       
+
+
+
+
+/* Slider sections fix padding */
+#slider{
+	margin-top: 157px;
+}
+#slider .btn{
+	padding: 8px 30px;
+}
+#slider h3{
+	margin-top: 80px;
+	font-size: 34px;
+	font-family: 'Oleo Script', cursive;
+	color: #4f4f4f;
+	
+	
+}
+#slider h2{
+	margin-top: 20px;
+	font-size: 58px;
+	font-weight: bold;
+	color: #4f4f4f;
+	
+	
+}
+#slider hr{
+	margin-top: 20px;
+	border: none;
+	width: 50px;
+	height: 4px;
+	background-color: #a3019f;
+	
+	
+}
+#slider p, #slider button{
+	margin-top: 20px;
+	font-size: 20px;
+	}
+
+.carousel-indicators li{
+	border: 1px solid #bbb;
+	background-color: #bbb;
+
+}
+.carousel-indicators .active{
+	border: 1px solid #a3019f;
+	background-color: #a3019f;
+}
+.carousel-inner {
+  background-color: #f3f3f3;
+}
+
+	
+/******** Garancy style *********/
+
+.top3BlocksItem{
+	padding: 15px 10px;
+	background-color: #f9f9f9;
+	
+}
+.top3BlocksItem span{
+	font-size: 2em;
+}
+.top3BlocksItemTitel{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin: 7px 0;
+}
+.top3BlocksItemDescriptions{
+	color: gray;
+}
+
+
+/**********Top Selling Product********/
+.sectionDivider{
+	border-top: 3px solid #eee;
+	text-align: center;
+	margin: 35px 45px 15px 48px;
+}
+
+.sectionDivider h2{
+	background-color: #fff;
+	position: relative;
+	top: -20px;
+	display: inline;
+	padding: 0 20px;
+}
+#topSellingProductsCarousel .carousel-inner{
+	background-color: #fff;
+}
+#topSellingProductsCarousel a.carousel-control{
+	width: auto;
+	display: none;
+	
+}
+#topSellingProductsCarousel:hover a.carousel-control{
+	display: block;
+
+}
+#topSellingProductsCarousel a.carousel-control.left{
+	left: 20px;
+	z-index: 2;
+}
+#topSellingProductsCarousel .carousel-control.right{
+  right: 20px;
+  z-index: 2;
+}
+#topSellingProductsCarousel img{
+	margin: auto;
+	
+}
+#topSellingProductsCarousel .item .col-sm-4 > div{	
+	/* margin: 0 10px; */
+	background-image:
+    radial-gradient(
+      circle at center center,
+      #fff,
+      #bbb 100%
+    );
+}
+
+#topSellingProductsCarousel .item .col-sm-4 > div{
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	margin: 50px;
+}
+
+#topSellingProductsCarousel .item .col-sm-4:hover > div{
+	-webkit-transform: scale(1.6); 
+	-moz-transform: scale(1.6);
+	-o-transform: scale(1.6);
+	transform: scale(1.6);
+}
+
+#topSellingProductsCarousel .item div .description{
+	display: none;
+  position: absolute;
+	width: 100%;
+	bottom: 117px;
+	font-size: 16px;
+	text-align: center;
+}
+
+#topSellingProductsCarousel .item .col-sm-4:hover div .description{
+	display: block;
+}
+
+#topSellingProductsCarousel .item div .description div{
+  background-color: #fff;
+	margin: 0 auto;
+	padding: 10px 5px 5px 5px;
+}
+
+#topSellingProductsCarousel .item .col-sm-4:hover{
+  z-index: 1;
+}
+	
+	
+/**************Middle Slogan************/
+.middleSloganBg{
+	background-image: url('../../images/middleSloganBg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 100px 0;
+	}
+.middleSloganBg h1{
+	color: #fff;
+	text-align: center;
+	letter-spacing: 3px;
+	
+}
+
+#category{
+	font-family: 'Poppins',sans-serif;
+}
+#category .categoriesTitle{
+	margin-top: 30px;
+	border-width: 3px 0 0;
+	border-color: #eee;
+	border-style: solid;
+	
+}
+#category h3{
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 0;
+	padding-right: 10px;
+	position: relative;
+	background-color: #fff;
+	top: -14px;
+	display: inline-block;
+	text-align: left;
+	
+	
+}
+#category .categoryProductImage{
+	background-image: radial-gradient(
+	circle at center center,
+	#fff
+	#bbb 100%
+	);
+	
+	margin-bottom: 15px;
+}
+#category .categoryProductInfoTitle{
+  border-bottom: 1px solid #000;
+  background-color: #f6f6f6;
+  padding: 10px 5px 0 5px;
+}
+
+#category .categoryProductDescription{
+  font-size: 10px;
+}
+
+#category .categoryProductPrice, #category .categoryIcons{
+  text-align: center;
+}
+
+.categoryIcons span{
+  width: 30px;
+  height: 30px;
+  padding: 9px 0 0 0px;
+  background-color: #eee;
+  color: #000;
+}
+
+.categoryIcons span:hover{
+  color: #a3019f;
+}
+
+/********** Reference Style **********/
+
+
+#wroteAboutUs img{
+	position: absolute;
+	left: 50%;
+	width: 100px;
+	margin-left: -50px;
+	top: -49px;
+}
+
+#wroteAboutUs .carousel-inner{
+	overflow: visible;
+}
+#wroteAboutUs{
+	margin-top: 61px;
+}
+#wroteAboutUs blockquote{
+  padding: 60px 25px 75px 25px;
+  font-style: italic;
+  text-align: center;
+}
+
+#wroteAboutUs p{
+  color: gray;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+/*********** Contact Style ************/
+
+#footerTop{
+	position: relative;
+	background-color: #232323;
+	padding: 80px 0;
+}
+
+#scrollToTop{
+	position: absolute;
+	top: -24px;
+	font-size: 20px;
+	left: 50%;
+	margin-left: -24px;
+	background-color: #fff;
+	border-radius: 90%;
+	box-shadow: 0 0 3px #666666;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+}
+#scrollToTop span{
+	width: 33px;
+	height: 34px;
+	line-height: 34px;
+	top: 2px;
+	left: 16px;
+	
+	}
+	
+#footerTop p{
+	color: #bbb;
+	text-align: center;
+}
+#footerBottom{
+  color: #bbb;
+  background-color: #191919;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#footerBottom ul{
+  border-bottom: 0;
+}
+
+#footerBottom a{
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#footerBottom li{
+  float: none;
+  display: inline-block;  
+}
+	
